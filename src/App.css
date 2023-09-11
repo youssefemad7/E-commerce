@@ -1,38 +1,259 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar{
+  background-color: #ebeeee!important;
+  margin-bottom: -50px;
+ 
+
+}
+.navbar .mar{
+  margin: 5px 460px 0px 20px;
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .items{
+  margin: 5px 20px 10px 20px;
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
 }
+.navbar .icon1{
+  font-size: 20px;
+  margin-left: 490px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+@media only screen and (max-width: 992px) {
+  .navbar .icon1{
+    font-size: 20px;
+    margin-left: 250px;
+  
   }
+  .navbar .mar{
+    margin: 5px 250px 0px 20px;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+  
+  }
+ 
+}
+@media only screen and (max-width: 600px) {
+  .navbar .icon1{
+    font-size: 20px;
+    margin-left: 30px;
+  
+  }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar .middle{
+  font-size: 50px;
+}
+
+.image1,
+.image2{
+  width: 100%;
+  height: 100vh;
+  background-color: #ebeeee;
+  margin-bottom: 50px;
+}
+
+.images img{
+  width: 100%;
+  transition: transform 0.7s ease;
+
+}
+.images img:hover{
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.divhid{
+  overflow: hidden;
+}
+.tex{
+  font-weight: bold;
+
+}
+
+/* Swiper 2 */
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec3 {
+background-color: #ebeeee;
+width: 100%;
+margin-top: 150px;
+margin-bottom: 150px;
+
+padding: 50px 0px 50px 0px;
+}
+.sec3 h1{
+  font-weight: bold;
+}
+.sec3 h5{
+  font-weight: bold;
+  font-size: 15px;
+  color: #868787;
+}
+
+.sec3 .img5{
+  height: 350px;
+  width: 150px;
+  margin-left: 20%;
+  /* margin-right: 50px; */
+}
+.sec4 div{
+  
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+}
+.sec4 img{
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 0 0 0 300px;
+  position: relative;
+}
+.sec4div1 h1{
+  position: absolute;
+  top: 2250px;
+  z-index: 555;
+  padding: 0 0 0 100px;
+  font-size: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 1200px) {
+  .sec4div1 h1{
+display: none;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.sec4div1 span{
+  font-weight: bold;
+  font-size: 80px;
 }
+.sec4div2{
+  background-color: #cbcbcb;
+  padding: 120px 0;
+}
+.sec4div2 span{
+font-size: 80px;
+}
+/* button */
+.one{
+  right: 150px;
+}
+.c-button {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0.9em 1.6em;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  bottom: 100px;
+}
+
+.c-button--gooey {
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 4px solid #000000;
+  border-radius: 0;
+  position: relative;
+  transition: all 700ms ease;
+}
+
+.c-button--gooey .c-button__blobs {
+  height: 100%;
+  filter: url(#goo);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -3px;
+  right: -1px;
+  z-index: -1;
+}
+
+.c-button--gooey .c-button__blobs div {
+  background-color: #000000;
+  width: 34%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  transform: scale(1.4) translateY(125%) translateZ(0);
+  transition: all 700ms ease;
+}
+
+.c-button--gooey .c-button__blobs div:nth-child(1) {
+  left: -5%;
+}
+
+.c-button--gooey .c-button__blobs div:nth-child(2) {
+  left: 30%;
+  transition-delay: 60ms;
+}
+
+.c-button--gooey .c-button__blobs div:nth-child(3) {
+  left: 66%;
+  transition-delay: 25ms;
+}
+
+.c-button--gooey:hover {
+  color: #fff;
+}
+
+.c-button--gooey:hover .c-button__blobs div {
+  transform: scale(1.4) translateY(0) translateZ(0);
+}
+
+
