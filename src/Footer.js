@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap';
-import './App.css';
-
+import { FaFacebookF } from "react-icons/fa";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { GrPinterest } from "react-icons/gr";
 
 export class Footer extends Component {
     render() {
@@ -30,7 +31,12 @@ export class Footer extends Component {
                         <Col lg="3" md="3" sm="12">
                             <h3>Follow Us</h3>
                             <p>And get Free Shipping on all your orders!</p>
-                           
+                            <div className="divicons">
+                                <div><FaFacebookF /></div>
+                                <div><AiOutlineTwitter /></div>
+                                <div><GrPinterest /></div>
+
+                            </div>
 
                         </Col>
                         <Col lg="5" md="5" sm="12">
