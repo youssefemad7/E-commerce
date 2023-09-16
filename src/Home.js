@@ -26,7 +26,6 @@ import image21 from '../src/images/6666.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Footer from './Footer';
 
 
 function Home() {
@@ -371,7 +370,6 @@ function Home() {
                         </Row>
                     </Container>
                 </section>
-        <Footer />
     </>
   );
 }

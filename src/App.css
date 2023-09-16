@@ -4,37 +4,56 @@
 .navbar{
   background-color: #ebeeee!important;
   margin-bottom: -50px;
- 
-
+  margin-left: -100px;
 }
 .navbar .mar{
-  margin: 5px 460px 0px 20px;
-  font-weight: bold;
+  margin: 5px 360px 0px 0px;
+  font-weight: 100;
   color: #000;
   font-size: 20px;
 
 }
 
-.navbar .items{
-  margin: 5px 20px 10px 20px;
-  font-weight: bold;
+.navbar .itemsl{
+  margin: 5px 20px 10px 0px;
+  font-weight: 100;
+  color: #000;
+  font-size: 20px;
+}
+.navbar .itemsr{
+  margin: 5px 30px 10px 0px;
+  font-weight: 100;
   color: #000;
   font-size: 20px;
 }
 .navbar .icon1{
+  margin: 10px 0px 0px 0px;
+  color: #000;
+
+
+}
+.navbar img{
+  margin: 10px 370px 10px 0px;
+}
+
+
+.navbar .icon1{
   font-size: 20px;
-  margin-left: 490px;
 
 }
 @media only screen and (max-width: 992px) {
-  .navbar .icon1{
-    font-size: 20px;
-    margin-left: 250px;
-  
+ 
+  .navbar img{
+    margin-right: 150px;
   }
+  .navbar{
+    background-color: #ebeeee!important;
+    margin-bottom: -50px;
+    margin-left: 0px;
+  }  
   .navbar .mar{
-    margin: 5px 250px 0px 20px;
-    font-weight: bold;
+    margin: 5px 150px 0px 0px;
+    font-weight: 100;
     color: #000;
     font-size: 20px;
   
@@ -42,11 +61,7 @@
  
 }
 @media only screen and (max-width: 600px) {
-  .navbar .icon1{
-    font-size: 20px;
-    margin-left: 30px;
-  
-  }
+ 
 
 }
 

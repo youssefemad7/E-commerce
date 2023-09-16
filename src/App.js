@@ -1,16 +1,28 @@
 import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
-import Home2 from './Home2';
+import Footer from './Footer';
+import Aboutus from './Aboutus';
+import Shop from './Shop';
+import {BrowserRouter , NavLink , Routes , Route} from "react-router-dom";
+
 
 function App() {
  
   return (
-    <div className="App">
+      <BrowserRouter>
+          <div className="App">
+
       <Navbar />
-      {/* <Home2 /> */}
-      <Home />
-    </div>
+      </div>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+          <Route path="/Shop" element={<Shop />} />
+          <Route path="/Aboutus" element={<Aboutus />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>    
   );
 }
 

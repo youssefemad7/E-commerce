@@ -6,6 +6,7 @@ import './App.css';
 import { faBasketShopping } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import image1 from '../src/images/1.png';
+import { NavLink } from 'react-router-dom';
 
 
 function BasicExample() {
@@ -15,10 +16,16 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav >
-            <Nav.Link href="#home" className='items '>Home</Nav.Link>     
-            <Nav.Link href="#link" className=' mar'>SHOP</Nav.Link>
-            <Nav.Link href="#"  className='img1 '>   <img src={image1} alt=""  /> </Nav.Link>
-            <Nav.Link><FontAwesomeIcon icon={faBasketShopping}  className='items  icon1'/></Nav.Link>
+            <NavLink to="/" className='itemsl '>Home</NavLink> 
+            <NavLink to="/Aboutus" className='itemsl'>AboutUs</NavLink>    
+            <NavLink to='/Shop' className=' mar'>SHOP</NavLink>
+            <NavLink to="/"  className='img1 '>   <img src={image1} alt=""  /> </NavLink>
+            <NavLink to="#link" className='itemsr'>ContactUs</NavLink>
+            <NavLink to="#link" className='itemsr '>FAQ's</NavLink>
+            <NavLink to="#link" className=' itemsr'>Blog</NavLink>
+            <NavLink><FontAwesomeIcon icon={faBasketShopping}  className='items  icon1'/></NavLink>
+        
+
             </Nav>
         </Navbar.Collapse>
       </Container>
