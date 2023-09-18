@@ -1,5 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import '/programing/My Projects/E-commerce-With-React/src/App.css';
+import './App.css';
 
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

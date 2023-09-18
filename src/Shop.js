@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import Productss from './Components/Productss'
+import Productss from './Productss'
 import products from './Components/products.json'
 import { Link } from 'react-router-dom';
 
