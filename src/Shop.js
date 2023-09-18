@@ -6,7 +6,7 @@ import products from './Components/products.json'
 import { Link } from 'react-router-dom';
 
 function Shop() {
-  // let ApiLink = './Components/products';
+  // let ApiLink = './Components/products.json';
   // let [products,setProducts] = useState([])
   // useEffect(() =>{
   //   fetch(ApiLink)

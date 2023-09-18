@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 
 function Productdetails(){
     let ApiLink = 'https://fakestoreapi.com/products';
+
     let [product,setProduct] = useState([])
 
 
