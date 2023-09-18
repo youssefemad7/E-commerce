@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { faBasketShopping } from '@fortawesome/free-solid-svg-icons';
+import { faBasketShopping,faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import image1 from '../src/images/1.png';
 import { NavLink } from 'react-router-dom';
@@ -24,6 +24,8 @@ function BasicExample() {
             <NavLink to="#link" className='itemsr '>FAQ's</NavLink>
             <NavLink to="#link" className=' itemsr'>Blog</NavLink>
             <NavLink><FontAwesomeIcon icon={faBasketShopping}  className='items  icon1'/></NavLink>
+            <NavLink> <FontAwesomeIcon icon={faHeart}  className='items  icon1 ms-3'/></NavLink>
+
         
 
             </Nav>

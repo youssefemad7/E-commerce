@@ -22,16 +22,13 @@ import image18 from '../src/images/6333.jpg';
 import image19 from '../src/images/6444.jpg';
 import image20 from '../src/images/6555.jpg';
 import image21 from '../src/images/6666.jpg';
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
 function Home() {
   return (
     < >
-    
     
         <Swiper className='sec1' />
         <Container  >

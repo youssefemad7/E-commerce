@@ -4,7 +4,8 @@ import Home from './Home';
 import Footer from './Footer';
 import Aboutus from './Aboutus';
 import Shop from './Shop';
-import {BrowserRouter , NavLink , Routes , Route} from "react-router-dom";
+import {BrowserRouter , Routes , Route} from "react-router-dom";
+import Productdetails from './Components/Shop/Productdetails';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <Route path="/" element={<Home />} />
           <Route path="/Shop" element={<Shop />} />
           <Route path="/Aboutus" element={<Aboutus />} />
+          <Route path="/shop/:productId" element={<Productdetails />} />
+
       </Routes>
       <Footer />
     </BrowserRouter>    

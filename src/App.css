@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body{
+  background-color: white;
+}
 .navbar{
   background-color: #ebeeee!important;
   margin-bottom: -50px;
@@ -21,7 +21,7 @@
   font-size: 20px;
 }
 .navbar .itemsr{
-  margin: 5px 30px 10px 0px;
+  margin: 5px 25px 10px 0px;
   font-weight: 100;
   color: #000;
   font-size: 20px;
@@ -632,6 +632,74 @@ border:1px solid black;
 }
 
 
+
+
+
+
+/* SHOP */
+.shopsec1{
+  margin-top: 50px;
+  background-image: url(images/d2c46b4a25816a9c5f07ed83b984991a.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center
+  
+}
+.shopsec1 h3{
+   font-size: 50px;
+   font-weight: 100;
+}
+.shopsec1 span{
+  font-size: 20px;
+}
+.shopsec1 a{
+  color: #707070;
+  font-size: 20px;
+}
+
+/* Productss  */
+.productbody {
+  position: relative;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.productbody img{
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.productbody h1{
+  margin: 7px 7px 7px 0px;
+  font-size: 15px;
+  color: #868787;
+}
+.productbody p{
+  font-size: 20px;
+}
+.productbody .shopicons {
+  font-size: 25px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  text-align: center;
+  color: #000;
+  opacity: 0;
+}
+
+.productbody .shopicons:hover {
+opacity: 1;
+transition: opacity 1.5s ;
+}
 
 
 
