@@ -4,7 +4,7 @@ import './App.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlassPlus,faHeart,faBasketShopping } from '@fortawesome/free-solid-svg-icons';
-import image14 from '../images/Untitled-2_c3deccf5-8c45-4eae-8ed0-63383cd413a0_540x.jpg';
+import image14 from '../src/images/Untitled-2_c3deccf5-8c45-4eae-8ed0-63383cd413a0_540x.jpg';
 
 
 
@@ -29,9 +29,9 @@ function Productss(props) {
 
         </p>
         <div className='shopicons'>
-        <FontAwesomeIcon icon={faBasketShopping}  />
-        <FontAwesomeIcon icon={faHeart} className=' ms-5 me-5'/>
-        <Link variant="primary" to={`/shop/${product.id}`}><FontAwesomeIcon icon={faMagnifyingGlassPlus} /></Link>
+        <FontAwesomeIcon icon={faBasketShopping} className='shopi'  />
+        <FontAwesomeIcon icon={faHeart} className=' ms-5 me-5 shopi'/>
+        <Link variant="primary" to={`/shop/${product.id}`}><FontAwesomeIcon icon={faMagnifyingGlassPlus}  className='shopi' /></Link>
 
         </div>
        

@@ -689,11 +689,15 @@ border:1px solid black;
 .productbody .shopicons {
   font-size: 25px;
   position: absolute;
-  top: 35%;
-  left: 30%;
+  top: 70%;
+  left: 25%;
   text-align: center;
   color: #000;
   opacity: 0;
+}
+.productbody .shopi {
+  background-color: white;
+  padding: 5px;
 }
 
 .productbody .shopicons:hover {
