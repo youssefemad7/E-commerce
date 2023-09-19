@@ -1,5 +1,12 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from 'react';
+import image14 from '../../images/Untitled-2_360x.jpg';
+import { Col, Container, Row } from "react-bootstrap";
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 
 
 function Productdetails(){
@@ -17,21 +24,43 @@ function Productdetails(){
       },[])
     return(
         <>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+    <Container className="productdetails">
+        <Row>
+        <Col xl={4} lg={6} md={12}  sm={12} >
+        <img src={image14} />
+        </Col>
+        <Col xl={7} lg={6} md={12} sm={12} className="mt-4 ">
+            <div className="details1">
+            <h1>
+         <Link to='/shop'>Shop / </Link>   {product.title}
+        </h1>
+            </div>
+       
+        <h4>
+        {product.title}
 
+        </h4>
+        <h5>
+        {`$${product.price}`}
 
-        <h1>dkjgsjklgha {params.productId}{product.title}</h1>
+        </h5>
+        <div className="details">
+            <input type="number"></input>
+            <button >Add to Cart</button><p className="mt-3">{`Total Price: ${product.input}`}</p>
+            <Link>  <FontAwesomeIcon icon={faHeart} className='producticon'/></Link> 
+
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas laoreet iaculis. Proin ut nisl vulputate, blandit neque vitae, dapibus quam. Integer nibh arcu, hendrerit sollicitudin sapien posuere, facilisis volutpat mi. Curabitur luctus, dolor et consectetur tempus</p>
+        <ul>
+            <li><h5>Avilable: <span>In stock</span></h5></li>
+            <li><h5>Type: <span>Woman</span></h5></li>
+            <li><h5>Vendor: <span>Fashion</span></h5></li>
+
+        </ul>
+        </Col>
+
+        </Row>
+    </Container>
         </>
     )
 }
