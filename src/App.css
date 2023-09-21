@@ -1,97 +1,85 @@
-body{
+body {
   background-color: white;
 }
-.navbar{
-  background-color: #ebeeee!important;
+.navbar {
+  background-color: #ebeeee !important;
   margin-bottom: -50px;
   margin-left: -100px;
 }
-.navbar .mar{
+.navbar .mar {
   margin: 5px 360px 0px 0px;
   font-weight: 100;
   color: #000;
   font-size: 20px;
-
 }
 
-.navbar .itemsl{
+.navbar .itemsl {
   margin: 5px 20px 10px 0px;
   font-weight: 100;
   color: #000;
   font-size: 20px;
 }
-.navbar .itemsr{
+.navbar .itemsr {
   margin: 5px 25px 10px 0px;
   font-weight: 100;
   color: #000;
   font-size: 20px;
 }
-.navbar .icon1{
+.navbar .icon1 {
   margin: 10px 0px 0px 0px;
   color: #000;
-
-
 }
-.navbar img{
+.navbar img {
   margin: 10px 370px 10px 0px;
 }
 
-
-.navbar .icon1{
+.navbar .icon1 {
   font-size: 20px;
-
 }
 @media only screen and (max-width: 992px) {
- 
-  .navbar img{
+  .navbar img {
     margin-right: 150px;
   }
-  .navbar{
-    background-color: #ebeeee!important;
+  .navbar {
+    background-color: #ebeeee !important;
     margin-bottom: -50px;
     margin-left: 0px;
-  }  
-  .navbar .mar{
+  }
+  .navbar .mar {
     margin: 5px 150px 0px 0px;
     font-weight: 100;
     color: #000;
     font-size: 20px;
-  
   }
- 
 }
 @media only screen and (max-width: 600px) {
- 
-
 }
 
-.navbar .middle{
+.navbar .middle {
   font-size: 50px;
 }
 
 .image1,
-.image2{
+.image2 {
   width: 100%;
   height: 100vh;
   background-color: #ebeeee;
   margin-bottom: 50px;
 }
 
-.images img{
+.images img {
   width: 100%;
   transition: transform 0.7s ease;
-
 }
-.images img:hover{
+.images img:hover {
   transform: scale(1.1);
   transition: 0.7s;
 }
-.divhid{
+.divhid {
   overflow: hidden;
 }
-.tex{
+.tex {
   font-weight: bold;
-
 }
 
 /* Swiper 2 */
@@ -117,7 +105,6 @@ body {
   width: 100%;
   height: 100%;
   margin-top: 50px;
-
 }
 
 .swiper-slide {
@@ -139,86 +126,86 @@ body {
 }
 /* sec3 */
 .sec3 {
-background-color: #ebeeee;
-width: 100%;
-margin-top: 150px;
-margin-bottom: 150px;
+  background-color: #ebeeee;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
 
-padding: 50px 0px 50px 0px;
+  padding: 50px 0px 50px 0px;
 }
-.sec3 h1{
+.sec3 h1 {
   font-weight: bold;
 }
-.sec3 h5{
+.sec3 h5 {
   font-weight: bold;
   font-size: 15px;
   color: #868787;
 }
 
-.sec3 .img5{
+.sec3 .img5 {
   height: 350px;
   width: 150px;
   margin-left: 20%;
   /* margin-right: 50px; */
 }
 /* Sec4 */
-.sec4{
+.sec4 {
   margin-bottom: 100px;
 }
-.sec4div1{
+.sec4div1 {
   background-image: url(images/banner-2.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
-  background-color:#f4f4f4 ;
+  background-color: #f4f4f4;
   position: relative;
   height: 70vh;
 }
-.sec4div2{
+.sec4div2 {
   background-color: #e9e9e9;
   position: relative;
   height: 70vh;
 }
 
-.sec4 .div11sec4{
+.sec4 .div11sec4 {
   position: absolute;
   top: 20%;
   left: 5%;
   text-align: center;
   color: #000;
 }
-.sec4 .div11sec4 h5{
+.sec4 .div11sec4 h5 {
   font-weight: 500;
   font-size: 50px;
 }
-.sec4 .div11sec4 h4{
+.sec4 .div11sec4 h4 {
   font-weight: 900;
   margin-top: -30px;
   font-size: 60px;
 }
-.sec4 .flexywrite{
+.sec4 .flexywrite {
   display: flex;
-  text-align: center ;
+  text-align: center;
   justify-content: center;
   align-items: center;
   margin-top: -30px;
 }
-.sec4 .flexywrite h3{
+.sec4 .flexywrite h3 {
   font-size: 90px;
 }
-.sec4 .flexywrite p{
+.sec4 .flexywrite p {
   font-size: 30px;
   width: 30px;
   line-height: 40px;
 }
-.sec4 .ptwo{
+.sec4 .ptwo {
   margin-top: -30px;
 }
-@media only screen and (max-width:1200px) {
-  .sec4 .div11sec4 h4{
+@media only screen and (max-width: 1200px) {
+  .sec4 .div11sec4 h4 {
     font-size: 40px;
   }
-  .sec4 .div2sec4 h3{
+  .sec4 .div2sec4 h3 {
     font-size: 50px;
   }
 }
@@ -235,7 +222,6 @@ padding: 50px 0px 50px 0px;
   vertical-align: middle;
   position: relative;
   z-index: 1;
-  
 }
 
 .c-button--gooey {
@@ -292,63 +278,61 @@ padding: 50px 0px 50px 0px;
   transform: scale(1.4) translateY(0) translateZ(0);
 }
 
-
 /* Sec5 */
 
 /***********************************************************/
-.sec5{
+.sec5 {
   background-color: #f4f4f4;
   padding: 30px 0px;
   position: relative;
 }
-.sec5h3{
+.sec5h3 {
   color: #000;
   font-size: 25px;
   margin: 20px 0px;
   font-weight: 1000;
 }
-.sec5 img{
+.sec5 img {
   width: 90%;
   text-align: center;
-
 }
-.divflexy3{
-  padding: 30px 0px ;
+.divflexy3 {
+  padding: 30px 0px;
   padding-right: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.divflexy3 p{
+.divflexy3 p {
   color: #707070;
 }
-.divflexy3 h3{
+.divflexy3 h3 {
   font-size: 25px;
   font-weight: 1000;
 }
-.divflexy3 svg{
+.divflexy3 svg {
   font-size: 30px;
   color: #a1a1a1;
   cursor: pointer;
 }
-.allcategory{
+.allcategory {
   position: absolute;
   top: 40%;
   left: 15%;
   transition: all 1s ease-in-out;
 }
-.category{
+.category {
   position: relative;
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background-color: rgba(44,44,44,.5);
+  background-color: rgba(44, 44, 44, 0.5);
   box-sizing: border-box;
   cursor: pointer;
   display: block;
 }
-.category::before{
-  content: '';
+.category::before {
+  content: "";
   width: 12px;
   height: 12px;
   position: absolute;
@@ -356,19 +340,17 @@ padding: 50px 0px 50px 0px;
   background-color: rgb(0, 0, 0);
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.badge{
+.badge {
   background-color: white;
   height: 40px;
   color: black;
   position: absolute;
   top: -130%;
-
 }
-.badge::after{
-  
+.badge::after {
   content: "";
   position: absolute;
   margin-left: -5px;
@@ -377,15 +359,14 @@ padding: 50px 0px 50px 0px;
   border-color: #fff transparent transparent transparent;
   top: 100%;
   left: 50%;
-
 }
-.iconbadge{
+.iconbadge {
   color: black;
   transform: rotate(90deg);
   font-size: 20px;
   margin-top: 5px;
 }
-.categorydetail{
+.categorydetail {
   position: absolute;
   top: -330%;
   left: -250%;
@@ -395,20 +376,19 @@ padding: 50px 0px 50px 0px;
   padding: 5px;
   opacity: 0;
 }
-.categorydetail img{
+.categorydetail img {
   width: 80px;
   height: 100px;
   margin-right: 5px;
 }
-.categorydetail h3{
+.categorydetail h3 {
   font-size: 15px;
 }
-.categorydetail p{
+.categorydetail p {
   font-size: 15px;
   color: #a1a1a1;
 }
-.categorydetail::after{
-  
+.categorydetail::after {
   content: "";
   position: absolute;
   margin-left: -5px;
@@ -417,102 +397,97 @@ padding: 50px 0px 50px 0px;
   border-color: #fff transparent transparent transparent;
   top: 100%;
   left: 50%;
-  
-  }
-.allcategory:hover .categorydetail{
+}
+.allcategory:hover .categorydetail {
   opacity: 1;
   transition: 0.8s all ease-in-out;
 }
-.allcategory:hover .badge{
+.allcategory:hover .badge {
   opacity: 0;
 }
-.allcategory2{
+.allcategory2 {
   position: absolute;
   top: 60%;
   left: 18%;
   transition: all 1s ease-in-out;
 }
-.allcategory2:hover .categorydetail{
+.allcategory2:hover .categorydetail {
   opacity: 1;
   transition: 0.8s all ease-in-out;
 }
-.allcategory2:hover .badge{
+.allcategory2:hover .badge {
   opacity: 0;
 }
-.allcategory3{
+.allcategory3 {
   position: absolute;
   top: 35%;
   left: 45%;
   transition: all 1s ease-in-out;
 }
-.allcategory3:hover .categorydetail{
+.allcategory3:hover .categorydetail {
   opacity: 1;
   transition: 0.8s all ease-in-out;
 }
-.allcategory3:hover .badge{
+.allcategory3:hover .badge {
   opacity: 0;
 }
-.allcategory4{
+.allcategory4 {
   position: absolute;
   top: 55%;
   left: 50%;
   transition: all 1s ease-in-out;
 }
-.allcategory4:hover .categorydetail{
+.allcategory4:hover .categorydetail {
   opacity: 1;
   transition: 0.8s all ease-in-out;
 }
-.allcategory4:hover .badge{
+.allcategory4:hover .badge {
   opacity: 0;
 }
-.allcategory5{
+.allcategory5 {
   position: absolute;
   top: 45%;
   left: 80%;
   transition: all 1s ease-in-out;
 }
-.allcategory5:hover .categorydetail{
+.allcategory5:hover .categorydetail {
   opacity: 1;
   transition: 0.8s all ease-in-out;
 }
-.allcategory5:hover .badge{
+.allcategory5:hover .badge {
   opacity: 0;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .allcategory {
     top: 20%;
-
   }
-  .allcategory2{
+  .allcategory2 {
     top: 28%;
     left: 35%;
   }
   .allcategory3 {
     top: 45%;
   }
-  .allcategory5{
-    top:80%;
+  .allcategory5 {
+    top: 80%;
     left: 45%;
-
   }
-
-
 }
 /***********************************************/
 
 /* Sec6 */
-.sec6{
+.sec6 {
   padding: 100px 0px;
 }
-.productsshow .col-md-4{
+.productsshow .col-md-4 {
   padding: 0;
   position: relative;
   transition: all 1s ease-in-out;
 }
-.productsshow img{
+.productsshow img {
   width: 100%;
 }
-.productdivv{
+.productdivv {
   position: absolute;
   top: 0;
   left: 0;
@@ -524,68 +499,67 @@ padding: 50px 0px 50px 0px;
   align-items: center;
   display: none;
 }
-.productdivv svg{
+.productdivv svg {
   color: black;
   font-size: 50px;
 }
-.productsshow .col-md-4:hover .productdivv{
+.productsshow .col-md-4:hover .productdivv {
   transition: all 1s ease-in-out;
   display: flex;
 }
-.rowproduct{
+.rowproduct {
   align-items: center;
 }
-.colproduct{
+.colproduct {
   padding-left: 60px !important;
 }
-.colproduct h3{
+.colproduct h3 {
   font-size: 50px;
   font-weight: 400;
   margin-bottom: 50px;
 }
-.colproduct p{
+.colproduct p {
   color: #a1a1a1;
   margin-bottom: 50px;
 }
-.flexyyyyy{
+.flexyyyyy {
   margin-top: 40px;
   display: flex;
   align-items: baseline;
   justify-content: flex-end;
 }
-.flexyyyyy h5{
+.flexyyyyy h5 {
   font-size: 30px;
   font-weight: 1000;
 }
-.flexyyyyy div{
+.flexyyyyy div {
   height: 3px;
   width: 100px;
   background-color: black;
 }
 
 /* Footer */
-footer{
+footer {
   background-color: #f4f4f4;
   padding: 100px 0px;
 }
 
-footer h3{
+footer h3 {
   font-size: 30px;
   font-weight: 1000;
   margin-bottom: 30px;
 }
-footer p{
+footer p {
   margin-top: 20px;
   color: #2c2c2c;
 }
-.divicons{
+.divicons {
   display: flex;
   justify-content: space-between;
   width: 70%;
   margin-top: 30px;
-
 }
-.divicons div{
+.divicons div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -594,17 +568,16 @@ footer p{
   border-radius: 50%;
   border: 1px solid #a1a1a1;
   color: #a1a1a1;
-
 }
-.divicons div svg{
+.divicons div svg {
   font-size: 25px;
 }
-.divicons div:hover{
+.divicons div:hover {
   border: 1px solid #2c2c2c;
 
-color: #2c2c2c;
+  color: #2c2c2c;
 }
-footer input[type="email"]{
+footer input[type="email"] {
   margin-top: 20px;
   width: 70%;
   height: 50px;
@@ -613,7 +586,7 @@ footer input[type="email"]{
   text-indent: 10px;
   font-size: 20px;
 }
-footer input[type="submit"]{
+footer input[type="submit"] {
   margin-top: 20px;
 
   width: 30%;
@@ -621,23 +594,18 @@ footer input[type="submit"]{
   outline: none;
   border: none;
   font-size: 20px;
-background-color: black;
-color: white;
-transition: all 1s ease-in-out;
+  background-color: black;
+  color: white;
+  transition: all 1s ease-in-out;
 }
-footer input[type="submit"]:hover{
+footer input[type="submit"]:hover {
   background-color: white;
-color: black;
-border:1px solid black;
+  color: black;
+  border: 1px solid black;
 }
-
-
-
-
-
 
 /* SHOP */
-.shopsec1{
+.shopsec1 {
   margin-top: 50px;
   background-image: url(images/d2c46b4a25816a9c5f07ed83b984991a.jpg);
   height: 60vh;
@@ -647,17 +615,16 @@ border:1px solid black;
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center
-  
+  justify-content: center;
 }
-.shopsec1 h3{
-   font-size: 50px;
-   font-weight: 100;
+.shopsec1 h3 {
+  font-size: 50px;
+  font-weight: 100;
 }
-.shopsec1 span{
+.shopsec1 span {
   font-size: 20px;
 }
-.shopsec1 a{
+.shopsec1 a {
   color: #707070;
   font-size: 20px;
 }
@@ -669,24 +636,24 @@ border:1px solid black;
   margin: 15px;
 }
 
-.productbody img{
+.productbody img {
   overflow: hidden;
   transition: all 1s ease-in-out;
-    width: 100%;
-    height: 450px;
-    position: relative;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 450px;
+  position: relative;
+  top: 0;
+  left: 0;
 }
-.productbody h1{
+.productbody h1 {
   margin: 7px 7px 7px 0px;
   font-size: 15px;
   color: #868787;
 }
-.productbody p{
+.productbody p {
   font-size: 20px;
 }
-.productbody .shopicons a{
+.productbody .shopicons a {
   font-size: 25px;
   position: absolute;
   top: 68%;
@@ -694,62 +661,57 @@ border:1px solid black;
   text-align: center;
   color: #000;
   opacity: 0;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .productbody .shopicons a {
   margin-right: 50px;
-} 
-.productbody .shopi  {
+}
+.productbody .shopi {
   background-color: white;
   padding: 5px;
   overflow: hidden;
 }
-.productbody .shopi3{
+.productbody .shopi3 {
   position: relative;
   left: 55%;
-  }
-.productbody .shopi2{
-position: relative;
-left: 10%;
 }
-.productbody1:hover a{
-opacity: 1;
-transition: all 1.5s ease;
-
+.productbody .shopi2 {
+  position: relative;
+  left: 10%;
 }
-
-
+.productbody1:hover a {
+  opacity: 1;
+  transition: all 1.5s ease;
+}
 
 /* ProductDetails */
 
-.productdetails{
+.productdetails {
   margin: 50px 30px 70px 50px;
 }
 
-
-
-.productdetails img{
+.productdetails img {
   margin: 50px 0px 70px -20px;
 }
-.details{
+.details {
   position: relative;
   margin: 20px 0px;
 }
-.details input{
-width: 40px;
-height: 50px;
-padding: 5px;
-margin-right: 10px;
+.details input {
+  width: 40px;
+  height: 50px;
+  padding: 5px;
+  margin-right: 10px;
 }
-.details button{
+.details button {
   height: 50px;
   width: 75%;
   border: none;
   background-color: rgb(75, 189, 214);
   color: white;
 }
-.producticon{
+.producticon {
   position: absolute;
   bottom: 45%;
   left: 85%;
@@ -757,24 +719,20 @@ margin-right: 10px;
   padding: 7px;
   color: #000;
   height: 34px;
-  
 }
 
 .details1 h1 {
-font-size: 15px;
-margin-top:45px;
+  font-size: 15px;
+  margin-top: 45px;
 }
 .details1 a {
   color: #000;
-  
-
 }
- @media screen and (max-width:992px) {
-  .details button{
+@media screen and (max-width: 992px) {
+  .details button {
     width: 69%;
-
   }
-  .productdetails img{
+  .productdetails img {
     width: 100%;
+  }
 }
- }
