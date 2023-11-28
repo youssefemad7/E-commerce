@@ -1,4 +1,5 @@
 import "./App.css";
+import { Link } from "react-router-dom";
 import Swiper from "./Swiper";
 import Swiper2 from "./Swiper2";
 import { ImEye } from "react-icons/im";
@@ -30,15 +31,22 @@ function Home() {
   return (
     <>
       <Swiper className="sec1" />
-      <Container>
+      <Container className="mt-5">
         <Row className="images">
           <Col lg={3} sm={6}>
             <div>
               <div className="divhid">
                 <img src={image4} className="img7" />
               </div>{" "}
-              <h3 className="tex ms-3 mt-3">
-                Clothing <span className="ms-5"> 5 items</span>
+              <h3 className="tex  mt-3">
+                Women
+                <span className="ms-3">
+                  <Link to="/Women">
+                    <button class="button">
+                      <span class="button-content">Bye </span>
+                    </button>
+                  </Link>
+                </span>
               </h3>
             </div>
           </Col>
@@ -47,8 +55,15 @@ function Home() {
               <div className="divhid">
                 <img src={image5} className="img7" />
               </div>{" "}
-              <h3 className="tex  mt-3">
-                Bag Brand <span className="ms-5"> 20 items</span>
+              <h3 className="tex ms-3 mt-3">
+                Men
+                <span className="ms-4">
+                  <Link to="/Men">
+                    <button class="button">
+                      <span class="button-content">Bye </span>
+                    </button>
+                  </Link>
+                </span>
               </h3>
             </div>
           </Col>
@@ -57,8 +72,15 @@ function Home() {
               <div className="divhid">
                 <img src={image6} className="img7" />
               </div>{" "}
-              <h3 className="tex  mt-3">
-                Accessories <span className="ms-5"> 6 items</span>
+              <h3 className="tex ms-3 mt-3">
+                Boys
+                <span className="ms-4">
+                  <Link to="/Boys">
+                    <button class="button">
+                      <span class="button-content">Bye </span>
+                    </button>
+                  </Link>
+                </span>
               </h3>
             </div>
           </Col>
@@ -67,8 +89,15 @@ function Home() {
               <div className="divhid">
                 <img src={image7} className="img7" />
               </div>
-              <h3 className="tex ms-5 mt-3">
-                Shoes <span className="ms-5"> 8 items</span>
+              <h3 className="tex ms-3 mt-3">
+                Girls
+                <span className="ms-4">
+                  <Link to="/Girls">
+                    <button class="button">
+                      <span class="button-content">Bye </span>
+                    </button>
+                  </Link>
+                </span>
               </h3>
             </div>
           </Col>

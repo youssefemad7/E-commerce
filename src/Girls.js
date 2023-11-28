@@ -5,7 +5,7 @@ import Productss from "./Productss";
 // import products from "./Product.json";
 import { Link } from "react-router-dom";
 
-function Shop() {
+function Girls() {
   let ApiLink = "https://fakestoreapi.com/products";
   let [products, setProducts] = useState([]);
   useEffect(() => {
@@ -52,4 +52,4 @@ function Shop() {
   );
 }
 
-export default Shop;
+export default Girls;
