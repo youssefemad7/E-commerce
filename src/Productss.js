@@ -19,7 +19,7 @@ function Productss(props) {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={product.image} alt="" />
 
               <div className="shopicons me-5 ms-5">
                 <div>
