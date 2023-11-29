@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import image14 from "../images/0150220428_1_1_3_80x.jpg";
+import img1 from "./images/0150220428_2_2_3_1_1024x1024@2x.jpg";
 import { Col, Container, Row } from "react-bootstrap";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -12,7 +13,7 @@ function Womenproduct1() {
       <Container className="productdetails">
         <Row>
           <Col xl={4} lg={6} md={12} sm={12}>
-            <img src={image14} className="imgdet" />
+            <img src={img1} className="imgdet" />
           </Col>
           <Col xl={7} lg={6} md={12} sm={12} className="mt-4 ">
             <div className="details1">

@@ -5,6 +5,22 @@ import Productss from "./Productss";
 import { Link } from "react-router-dom";
 import image14 from "./images/0150220428_1_1_3_80x.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import img1 from "./Womenproduct/images/0150220428_2_2_3_1_1024x1024@2x.jpg";
+import img2 from "./Womenproduct/images/0419492742_2_4_3-367x497_1024x1024@2x.jpg";
+import img3 from "./Womenproduct/images/0503326613_2_4_1-367x497_1024x1024@2x.jpg";
+import img4 from "./Womenproduct/images/5576660812_2_4sd_3-367x497_1024x1024@2x.jpg";
+import img5 from "./Womenproduct/images/5606326812cvcv_2_4_3_540x.jpg";
+import img6 from "./Womenproduct/images/5814619742_2_4_1-367x497_1024x1024@2x.jpg";
+import img7 from "./Womenproduct/images/6111.jpg";
+import img8 from "./Womenproduct/images/6703777712_2_4_3_80x.jpg";
+import img9 from "./Womenproduct/images/minimalist-img-10_1024x1024@2x.jpg";
+import img10 from "./Womenproduct/images/minimalist-img-13_1024x1024@2x.jpg";
+import img11 from "./Womenproduct/images/minimalist-img-2_540x.jpg";
+import img12 from "./Womenproduct/images/minimalist-img-3_900x.jpg";
+import img13 from "./Womenproduct/images/minimalist-img-5_a1455f0b-6b39-4c34-a1ce-ff3aa62e53af_1024x1024@2x.jpg";
+import img14 from "./Womenproduct/images/minimalist-img-6_1024x1024@2x.jpg";
+import img15 from "./Womenproduct/images/minimalist-img-8_1024x1024@2x.jpg";
+
 import {
   faMagnifyingGlassPlus,
   faHeart,
@@ -51,7 +67,7 @@ function Women() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img1} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -98,7 +114,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img2} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -145,7 +161,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img3} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -197,7 +213,7 @@ function Women() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img4} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -244,7 +260,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img5} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -291,7 +307,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img6} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -343,7 +359,7 @@ function Women() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img7} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -390,7 +406,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img8} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -437,7 +453,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img9} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -489,7 +505,7 @@ function Women() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img10} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -536,7 +552,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img11} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -583,7 +599,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img12} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -635,7 +651,7 @@ function Women() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img13} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -682,7 +698,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img14} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -729,7 +745,7 @@ function Women() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img15} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>

@@ -26,7 +26,7 @@ function BasicExample() {
             </NavLink>
             <NavLink to="/" className="img1 ">
               {" "}
-              <img src={image1} alt="" />{" "}
+              <h1>FashionFinders</h1>
             </NavLink>
             <NavLink to="#link" className="itemsr">
               ContactUs

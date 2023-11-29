@@ -7,7 +7,7 @@ body {
   margin-left: -100px;
 }
 .navbar .mar {
-  margin: 5px 360px 0px 0px;
+  margin: 5px 300px 0px 0px;
   font-weight: 100;
   color: #000;
   font-size: 20px;
@@ -29,8 +29,9 @@ body {
   margin: 10px 0px 0px 0px;
   color: #000;
 }
-.navbar img {
-  margin: 10px 370px 10px 0px;
+.navbar .img1 {
+  margin: 10px 250px 10px 0px;
+  color: #000;
 }
 
 .navbar .icon1 {

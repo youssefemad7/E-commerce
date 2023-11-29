@@ -4,6 +4,22 @@ import { Col, Container, Row } from "react-bootstrap";
 import Productss from "./Productss";
 import { Link } from "react-router-dom";
 import image14 from "./images/0150220428_1_1_3_80x.jpg";
+import img1 from "./Menproduct/images/1.png";
+import img2 from "./Menproduct/images/2.jpg";
+import img3 from "./Menproduct/images/3.jpg";
+import img4 from "./Menproduct/images/4.jpg";
+import img5 from "./Menproduct/images/5.jpg";
+import img6 from "./Menproduct/images/6.jpg";
+import img7 from "./Menproduct/images/7.jpg";
+import img8 from "./Menproduct/images/8.jpg";
+import img9 from "./Menproduct/images/9.jpg";
+import img10 from "./Menproduct/images/10.jpg";
+import img11 from "./Menproduct/images/11.jpg";
+import img12 from "./Menproduct/images/12.jpg";
+import img13 from "./Menproduct/images/13.png";
+import img14 from "./Menproduct/images/14.jpg";
+import img15 from "./Menproduct/images/15.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMagnifyingGlassPlus,
@@ -51,7 +67,7 @@ function Men() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img1} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -98,7 +114,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img2} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -145,7 +161,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img3} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -197,7 +213,7 @@ function Men() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img4} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -244,7 +260,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img5} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -291,7 +307,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img6} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -343,7 +359,7 @@ function Men() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img7} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -390,7 +406,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img8} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -437,7 +453,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img9} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -489,7 +505,7 @@ function Men() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img10} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -536,7 +552,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img11} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -583,7 +599,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img12} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -635,7 +651,7 @@ function Men() {
         <Row>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img13} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -682,7 +698,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img14} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
@@ -729,7 +745,7 @@ function Men() {
           </Col>
           <Col className="m-5">
             <div className="productbody1">
-              <img src={image14} alt="" />
+              <img src={img15} alt="" />
 
               {/* <div className="shopicons me-5 ms-5">
                 <div>
