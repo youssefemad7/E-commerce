@@ -2,52 +2,781 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { Col, Container, Row } from "react-bootstrap";
 import Productss from "./Productss";
-// import products from "./Product.json";
 import { Link } from "react-router-dom";
+import image14 from "./images/0150220428_1_1_3_80x.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMagnifyingGlassPlus,
+  faHeart,
+  faBasketShopping,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Girls() {
-  let ApiLink = "https://fakestoreapi.com/products";
-  let [products, setProducts] = useState([]);
-  useEffect(() => {
-    fetch(ApiLink)
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
+  // let ApiLink = "https://fakestoreapi.com/products";
+  // let [products, setProducts] = useState([]);
+  // useEffect(() => {
+  //   fetch(ApiLink)
+  //     .then((res) => res.json())
+  //     .then((data) => setProducts(data));
+  // }, []);
 
   return (
     <>
       <section className="shopsec1">
         <div>
-          <h3>Shop</h3>
+          <h3>Girls</h3>
           <Link to="/">Home</Link>
           <span>/ Shop</span>
         </div>
       </section>
-
-      <Container>
+      {/* 
+      <Container className="mt-5">
         <Row>
-          {products.map((productsss) => {
-            return (
-              <Col key={productsss.id} lg={4} md={6} sm={12}>
-                <Productss product={productsss} />
-              </Col>
-            );
-          })}
+          <Col lg={4} md={4} sm={12}>
+            <img src={image14} width={300} />
+            <p>djfashl;sfjdkshjn</p>
+          </Col>
+          <Col lg={4} md={4} sm={12}>
+            <img src={image14} width={300} />
+            <p>djfashl;sfjdkshjn</p>
+          </Col>
+          <Col lg={4} md={4} sm={12}>
+            <img src={image14} width={300} />
+            <p>djfashl;sfjdkshjn</p>
+          </Col>
+        </Row>
+      </Container> */}
+
+      <Container className="productbody overflow-hidden">
+        <Row>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvassssssss
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls1">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls2">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <div>
+              <h1 className="mt-4">
+                titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+              </h1>
+              <div className="d-flex justify-center">
+                {" "}
+                <p className="mt-2 me-5">50</p>
+                <Link to="/Girls3">
+                  <button class="button ms-5">
+                    <span class="button-content ">Bye </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </Col>
         </Row>
       </Container>
+      <Container className="productbody overflow-hidden">
+        <Row>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
 
-      {/* <Container>
-      <Row>
-        {products.map((product) =>{
-          return(
-          <Col lg={3} key={product.id}>
-            <Productss product={product} />
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvassssssss
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls4">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
           </Col>
-          )
-        })}
-        
-      </Row>
-    </Container> */}
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls5">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <div>
+              <h1 className="mt-4">
+                titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+              </h1>
+              <div className="d-flex justify-center">
+                {" "}
+                <p className="mt-2 me-5">50</p>
+                <Link to="/Girls6">
+                  <button class="button ms-5">
+                    <span class="button-content ">Bye </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="productbody overflow-hidden">
+        <Row>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvassssssss
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls7">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls8">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <div>
+              <h1 className="mt-4">
+                titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+              </h1>
+              <div className="d-flex justify-center">
+                {" "}
+                <p className="mt-2 me-5">50</p>
+                <Link to="/Girls9">
+                  <button class="button ms-5">
+                    <span class="button-content ">Bye </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="productbody overflow-hidden">
+        <Row>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvassssssss
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls10">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls11">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <div>
+              <h1 className="mt-4">
+                titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+              </h1>
+              <div className="d-flex justify-center">
+                {" "}
+                <p className="mt-2 me-5">50</p>
+                <Link to="/Girls12">
+                  <button class="button ms-5">
+                    <span class="button-content ">Bye </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="productbody overflow-hidden">
+        <Row>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvassssssss
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls13">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <h1 className="mt-4">
+              {" "}
+              titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+            </h1>
+            <div className="d-flex justify-center">
+              {" "}
+              <p className="mt-2 me-5">50</p>
+              <Link to="/Girls14">
+                <button class="button ms-5">
+                  <span class="button-content ">Bye </span>
+                </button>
+              </Link>
+            </div>{" "}
+          </Col>
+          <Col className="m-5">
+            <div className="productbody1">
+              <img src={image14} alt="" />
+
+              {/* <div className="shopicons me-5 ms-5">
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBasketShopping}
+                      className="shopi shopi3 me-5 ms-5"
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link>
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="  shopi shopi2 ms-5 me-5 "
+                    />
+                  </Link>
+                </div>
+                <div>
+                  <Link variant="primary" to={`/Shop`}>
+                    <FontAwesomeIcon
+                      icon={faMagnifyingGlassPlus}
+                      className="shopi"
+                    />
+                  </Link>
+                </div>
+              </div> */}
+            </div>
+            <div>
+              <h1 className="mt-4">
+                titilehjkjbnbcvhjkblnbvhjvbaskdbvas,jvdasasdasd
+              </h1>
+              <div className="d-flex justify-center">
+                {" "}
+                <p className="mt-2 me-5">50</p>
+                <Link to="/Girls15">
+                  <button class="button ms-5">
+                    <span class="button-content ">Bye </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Women's Cotton T-Shirt",
+    "category": "clothing",
+    "price": 19.99,
+    "image": "https://via.placeholder.com/200x200",
+    "description": "A comfortable and stylish cotton T-shirt for women."
+  },
+  {
+    "id": 2,
+    "name": "Women's Denim Jeans",
+    "category": "clothing",
+    "price": 29.99,
+    "image": "https://via.placeholder.com/200x200",
+    "description": "A versatile pair of denim jeans for women."
+  },
+  {
+    "id": 3,
+    "name": "Women's Leather Handbag",
+    "category": "accessories",
+    "price": 99.99,
+    "image": "https://via.placeholder.com/200x200",
+    "description": "A stylish and durable leather handbag for women."
+  },
+  {
+    "id": 4,
+    "name": "Women's Gold Necklace",
+    "category": "jewelry",
+    "price": 149.99,
+    "image": "https://via.placeholder.com/200x200",
+    "description": "A delicate and elegant gold necklace for women."
+  },
+  {
+    "id": 5,
+    "name": "Women's Red Lipstick",
+    "category": "beauty",
+    "price": 14.99,
+    "image": "https://via.placeholder.com/200x200",
+    "description": "A classic and bold red lipstick for women."
+  }
+]
