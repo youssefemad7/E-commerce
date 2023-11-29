@@ -28,15 +28,11 @@ export class Footer extends Component {
               <h3>Follow Us</h3>
               <p>And get Free Shipping on all your orders!</p>
               <div className="divicons">
+                {/* <div></div> */}
                 <div>
                   <FaFacebookF />
                 </div>
-                <div>
-                  <AiOutlineTwitter />
-                </div>
-                <div>
-                  <GrPinterest />
-                </div>
+                {/* <div></div> */}
               </div>
             </Col>
             <Col lg="5" md="5" sm="12">

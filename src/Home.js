@@ -39,11 +39,11 @@ function Home() {
                 <img src={image4} className="img7" />
               </div>{" "}
               <h3 className="tex  mt-3">
-                Women
-                <span className="ms-3">
+                {/* Women */}
+                <span className="ms-4">
                   <Link to="/Women">
-                    <button class="button">
-                      <span class="button-content">Bye </span>
+                    <button class="button ms-5">
+                      <span class="button-content ">Women </span>
                     </button>
                   </Link>
                 </span>
@@ -55,12 +55,12 @@ function Home() {
               <div className="divhid">
                 <img src={image5} className="img7" />
               </div>{" "}
-              <h3 className="tex ms-3 mt-3">
-                Men
-                <span className="ms-4">
+              <h3 className="tex ms-5 mt-3">
+                {/* Men */}
+                <span className="ms-5">
                   <Link to="/Men">
                     <button class="button">
-                      <span class="button-content">Bye </span>
+                      <span class="button-content">Men </span>
                     </button>
                   </Link>
                 </span>
@@ -72,12 +72,12 @@ function Home() {
               <div className="divhid">
                 <img src={image6} className="img7" />
               </div>{" "}
-              <h3 className="tex ms-3 mt-3">
-                Boys
-                <span className="ms-4">
+              <h3 className="tex ms-5 mt-3">
+                {/* Boys */}
+                <span className="ms-5">
                   <Link to="/Boys">
                     <button class="button">
-                      <span class="button-content">Bye </span>
+                      <span class="button-content">Boys </span>
                     </button>
                   </Link>
                 </span>
@@ -89,12 +89,12 @@ function Home() {
               <div className="divhid">
                 <img src={image7} className="img7" />
               </div>
-              <h3 className="tex ms-3 mt-3">
-                Girls
-                <span className="ms-4">
+              <h3 className="tex ms-5 mt-3">
+                {/* Girls */}
+                <span className="ms-5">
                   <Link to="/Girls">
                     <button class="button">
-                      <span class="button-content">Bye </span>
+                      <span class="button-content">Girls </span>
                     </button>
                   </Link>
                 </span>
@@ -109,7 +109,7 @@ function Home() {
           <Swiper2 />
         </Container>
       </section>
-      <section className="sec4">
+      {/* <section className="sec4">
         <Container>
           <Row className="justify-content-between">
             <Col lg={8} md={8} sm={12} className="sec4div1">
@@ -155,7 +155,7 @@ function Home() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
       <section className="sec5">
         <Container>
           <h3 className="sec5h3">Trending Outfits</h3>

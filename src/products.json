@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Fitted Printed Dress",
+    "img": "/images/5576660812_2_4sd_3-367x497_1024x1024@2x.jpg",
+    "img2": "/images/5576660812_2_3_1-367x497_1024x1024@2x.jpg",
+    "img3": "/images/5576660812_1_1_1_b8284903-7788-4752-ac0c-e2728e364b75_1024x1024@2x.jpg",
+    "img4": "/images/5576660812_2_1_1-152x205_1024x1024@2x.jpg",
+    "img5": "/images/5576660812_2_2_1_6f283bb4-9a5d-48e8-9e62-f4646c9057a5_1024x1024@2x.jpg",
+    "oldPrice": 169.0,
+    "CurrentPrice": 145.0,
+    "Weight": "0.5 Ibs",
+    "category": "dress",
+
+    "Dimensions": "120 x 45 x 70 in",
+    "Color": "blue",
+    "Sizing": "Fits true to size, take your normal size",
+    "Model": "177cm/ 5'10 and is wearing a size XSmall",
+    "stars": 4,
+    "type": "women"
+  },
+  {
+    "id": 2,
+    "name": "Short Dress",
+    "img": "/images/5572256506_2_sds4_1-367x497_1024x1024@2x.jpg",
+    "img2": "/images/5572256506_2_3_1-367x497_1024x1024@2x.jpg",
+    "img3": "/images/5572256506_2_1_1_04ede95f-3bdb-4f5b-9558-e6386104f481_1024x1024@2x.jpg",
+    "img4": "/images/5572256506_2_2_1_b08bf24e-db87-4072-9514-07313d03646c_1024x1024@2x.jpg",
+    "img5": "/images/5572256506_1_1_1_8b30c790-bebc-45a6-a167-257333f2acb9_1024x1024@2x.jpg",
+    "oldPrice": 200.0,
+    "CurrentPrice": 160.0,
+    "Weight": "0.6 Ibs",
+    "category": "dress",
+
+    "Dimensions": "130 x 45 x 70 in",
+    "Color": "gray",
+    "Sizing": "Fits true to size, take your normal size",
+    "Model": "177cm/ 5'10 and is wearing a size XSmall",
+    "stars": 4,
+    "type": "women"
+  }
+]

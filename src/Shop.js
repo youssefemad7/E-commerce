@@ -4,13 +4,17 @@ import { Col, Container, Row } from "react-bootstrap";
 import Productss from "./Productss";
 // import products from "./Product.json";
 import { Link } from "react-router-dom";
+import productsss from "./products.json";
 
 function Shop() {
   let ApiLink = "https://fakestoreapi.com/products";
+
   let [products, setProducts] = useState([]);
   useEffect(() => {
     fetch(ApiLink)
       .then((res) => res.json())
+      // .then((data) => console.log(data));
+
       .then((data) => setProducts(data));
   }, []);
 
